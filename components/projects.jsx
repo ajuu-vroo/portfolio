@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Projects({title,content,techArray,sourceCode,liveCode}) {
+function Projects({title,content,techArray,sourceCode,liveCode,projectThumbnail}) {
   const [active, setActive] = useState(false);
   const [activate,setActivate] = useState(true);
   return (
@@ -31,10 +31,10 @@ function Projects({title,content,techArray,sourceCode,liveCode}) {
       </div>)}
       
       <div>
-        <img src='https://wallpaperaccess.com/full/411002.jpg' className='h-44 w-72 object-cover pt-2' />
+        <img src={projectThumbnail} className='h-44 w-72 object-cover pt-2' />
       </div>
-      <div className='flex-col flex items-center'>
-        <h1 className='text-gray-200 mt-3 text-2xl font-lato font-semibold'>
+      <div className='flex-col flex items-center group '>
+        <h1 className='text-gray-200 group-hover:text-green-400 mt-3 text-2xl font-lato font-semibold transition'>
           {title}
         </h1>
         <h1 className='text-gray-400 text-center mt-4'>

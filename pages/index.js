@@ -131,19 +131,24 @@ export default function Home() {
         <h1 className='text-[#ffffffaf] text-3xl font-bold pt-3 font-lato selection:bg-[#6fb5b64e] md:pl-36'>Projects</h1>
         <div className='h-1 md:ml-36 w-44 bg-gradient-radial from-green-500 to-purple-500 rounded-full mt-1' />
         <div className='grid grid-cols-1 gap-4 last:pb-4 pr-6 pt-12 md:grid-cols-2 lg:grid-cols-3 lg:gap-10'>
-          <Projects title={'NewsStop - News app'} content={'My first project in NEXT.JS. A simple website which fetches JSON data from famous NewsAPI and displays the news form all over the world. Type in the given searchbox to find news of your choice.'} techArray={['HTML5', 'CSS3', 'Next.js']} sourceCode={'https://github.com/ajuu-vroo/Next-NewsStop'} liveCode={'https://newsstop.vercel.app/'} />
+          <Projects title={'NewsStop - News app'} content={'My first project in NEXT.JS. A simple website which fetches JSON data from famous NewsAPI and displays the news form all over the world. Type in the given searchbox to find news of your choice.'} techArray={['HTML5', 'CSS3', 'Next.js']} sourceCode={'https://github.com/ajuu-vroo/Next-NewsStop'} liveCode={'https://newsstop.vercel.app/'} projectThumbnail={'/newsStop.png'}/>
           <Projects title={'Hulu Clone'} content={'Made with React as the frontend framework, this is the front-end design of famous movie and TV shows streaming platform HULU.'} techArray={['React.js', 'TailwindCSS', 'TMDB API']}
-            sourceCode={'https://github.com/ajuu-vroo/Hulu-clone'} liveCode={'https://hulu-ajuu.vercel.app/'} />
+            sourceCode={'https://github.com/ajuu-vroo/Hulu-clone'} liveCode={'https://hulu-ajuu.vercel.app/'} 
+            projectThumbnail={'/huluClone.png'} />
           <Projects title={'PokeDex-Pokemon info'} content={<p>Another WebApp which fetches data in JSON format from pokeApi. Try <a target='_blank' href='https://pokedex-ajuu.vercel.app/pokemon/384' className='text-[#ffffffdc] hover:underline'>https://pokedex-ajuu.vercel.app/pokemon/384</a> to find out about my favorite pokemon.</p>} techArray={['Next.js', 'TailwindCSS', 'PokeAPI']}
-            sourceCode={'https://github.com/ajuu-vroo/PokeDex-PokeMon'} liveCode={'https://pokedex-ajuu.vercel.app/'} />
+            sourceCode={'https://github.com/ajuu-vroo/PokeDex-PokeMon'} liveCode={'https://pokedex-ajuu.vercel.app/'} 
+            projectThumbnail={'/pokedex.png'} />
           <Projects title={'Realtime Chat-App'} content={"This app lets users connect with each other in real-time using Socket.IO .The Back-end is made with a Node.js server. Open two tabs in your browser and try this app yourself. "} techArray={['NextJs with TailwindCSS', 'Node.js', 'Socket.io']}
-            sourceCode={'https://github.com/ajuu-vroo/NextJs-Chat-App'} liveCode={'https://chat-ajuu.vercel.app/'} />
+            sourceCode={'https://github.com/ajuu-vroo/NextJs-Chat-App'} liveCode={'https://chat-ajuu.vercel.app/'} 
+            projectThumbnail={'/chatApp.png'}/>
           <Projects title={'Google Clone'} content={'Made a Google clone which shows search results by querying Google V1 SearchAPI.This is one of my first projects using React with vanilla CSS used entirely for front-end.'}
             techArray={['React.js', 'CSS3', 'HTML5']}
-            sourceCode={'https://github.com/ajuu-vroo/Google-clone'} liveCode={'https://google-ajuu.vercel.app/'} />
+            sourceCode={'https://github.com/ajuu-vroo/Google-clone'} liveCode={'https://google-ajuu.vercel.app/'} 
+            projectThumbnail={'/googleClone.png'}/>
           <Projects title={'AjjuStore-eCommerce WebApp'} content={"Fully responsive demo eCommerce site. The site provides authentication and requires users to sign in. The database used is MongoDB. Stripe payment gateway has been integrated for fully functional card payments."}
             techArray={['Next.js', 'TailwindCSS', 'Stripe.js']}
             sourceCode={'https://github.com/ajuu-vroo/Ajuu-store'} liveCode={'https://ajuu-store.vercel.app/'}
+            projectThumbnail={'/ajuuStore.png'}
           />
         </div>
         <hr className='my-16 mr-5 opacity-30' />
