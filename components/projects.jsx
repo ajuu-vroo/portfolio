@@ -19,14 +19,13 @@ function Projects({title,content,techArray,sourceCode,liveCode,projectThumbnail}
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white hover:text-green-50 absolute right-2 top-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" onClick={() => setActivate(false)} >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M6 18L18 6M6 6l12 12"/>
         </svg>
-        <div className='mt-32 ml-4 space-x-3 lg:space-x-10 lg:ml-9'>
+        <div className='flex flex-col space-y-5 items-center justify-center md:space-y-0 md:space-x-6 md:pt-10 md:flex-row'>
           <a href={sourceCode} target="_blank">
           <button className='border-2 border-white text-white w-36 h-10 rounded-full hover:bg-white hover:text-black font-semibold transition-all'>Source Code</button>
           </a>
           <a href={liveCode} target="_blank">
           <button className='border-2 border-white text-white w-36 h-10 rounded-full hover:bg-white hover:text-black font-semibold transition-all'>Live Code</button>
           </a>
-
         </div>
       </div>)}
       
