@@ -161,7 +161,7 @@ export default function Home() {
         </h1>
         <div className="h-1 w-44 bg-gradient-radial from-green-500 to-purple-500 rounded-full mt-1" />
         <h1 className="text-base text-[#bdd2d8d7] tracking-wider font-light pr-3 mt-4 md:text-xl md:mt-10 selection:bg-[#6fb5b64e]">
-          I am a self-learned web developer. I started my journey in december
+          I am a self-learned web developer. I started my journey in December
           2020 when it was lockdown in India. I started learning HTML & CSS.
           After a month of honing these skills, I dived into JavaScript and
           learnt basic JS followed by its frontend framework React. So far I am
